@@ -69,3 +69,37 @@ div.panel {
     background-color: white;
     display: none;
 }
+
+
+#toc_container {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 20;
+    margin-bottom: 1em;
+    padding: 12px;
+    width: auto;
+    color:black;
+}
+
+.toc_title {
+    font-size: 20px;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+
+a {
+    color: #061070;
+}
+
+div.research {
+ background: rgba(0, 0, 0, 0.15); 
+ padding: 10px 30px; 
+ margin-top:20px; 
+ margin-bottom:20px;
+ width:65%;
+}  
